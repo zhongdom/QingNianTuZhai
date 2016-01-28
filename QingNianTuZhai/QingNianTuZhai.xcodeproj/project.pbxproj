@@ -10,6 +10,7 @@
 		CC0D3FAE1C472C0700F63446 /* HomeDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC0D3FAD1C472C0700F63446 /* HomeDetailViewController.swift */; };
 		CC0D3FDA1C474CF800F63446 /* Section.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC0D3FD91C474CF800F63446 /* Section.storyboard */; };
 		CC0D3FDC1C474D4500F63446 /* SectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC0D3FDB1C474D4500F63446 /* SectionCell.swift */; };
+		CC15118F1C58A6A900CE257D /* Log.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC15118E1C58A6A900CE257D /* Log.swift */; };
 		CC402FB71C51B98D00708059 /* UINavigationBarExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC402FB61C51B98D00708059 /* UINavigationBarExtension.swift */; };
 		CC4F82A61C50C2C500582701 /* www in Resources */ = {isa = PBXBuildFile; fileRef = CC4F82A51C50C2C500582701 /* www */; };
 		CC94F1071C46328B0072D519 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC94F1061C46328B0072D519 /* AppDelegate.swift */; };
@@ -41,6 +42,7 @@
 		CC0D3FAD1C472C0700F63446 /* HomeDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeDetailViewController.swift; sourceTree = "<group>"; };
 		CC0D3FD91C474CF800F63446 /* Section.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Section.storyboard; sourceTree = "<group>"; };
 		CC0D3FDB1C474D4500F63446 /* SectionCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SectionCell.swift; sourceTree = "<group>"; };
+		CC15118E1C58A6A900CE257D /* Log.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Log.swift; sourceTree = "<group>"; };
 		CC402FB61C51B98D00708059 /* UINavigationBarExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UINavigationBarExtension.swift; sourceTree = "<group>"; };
 		CC4F82A51C50C2C500582701 /* www */ = {isa = PBXFileReference; lastKnownFileType = folder; path = www; sourceTree = "<group>"; };
 		CC94F1031C46328B0072D519 /* QingNianTuZhai.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QingNianTuZhai.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -183,6 +185,7 @@
 				CC94F1201C4639800072D519 /* ImageExtension.swift */,
 				CC97AF621C464D33009EE12E /* KingfisherExtension.swift */,
 				CC402FB61C51B98D00708059 /* UINavigationBarExtension.swift */,
+				CC15118E1C58A6A900CE257D /* Log.swift */,
 			);
 			name = Extension;
 			sourceTree = "<group>";
@@ -428,6 +431,7 @@
 				CC94F13C1C463F9C0072D519 /* ProfileViewController.swift in Sources */,
 				CC0D3FDC1C474D4500F63446 /* SectionCell.swift in Sources */,
 				CC94F1191C46347B0072D519 /* CustomTabbarController.swift in Sources */,
+				CC15118F1C58A6A900CE257D /* Log.swift in Sources */,
 				CC94F1381C463F690072D519 /* SectionViewController.swift in Sources */,
 				CC94F1211C4639800072D519 /* ImageExtension.swift in Sources */,
 				CC94F1071C46328B0072D519 /* AppDelegate.swift in Sources */,
