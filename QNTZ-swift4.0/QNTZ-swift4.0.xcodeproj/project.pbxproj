@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CC7DC6DD1FD53F5F000D77FB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC7DC6DC1FD53F5F000D77FB /* AppDelegate.swift */; };
+		CC7DC6DF1FD53F5F000D77FB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC7DC6DE1FD53F5F000D77FB /* ViewController.swift */; };
+		CC7DC6E21FD53F5F000D77FB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC7DC6E01FD53F5F000D77FB /* Main.storyboard */; };
+		CC7DC6E41FD53F5F000D77FB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC7DC6E31FD53F5F000D77FB /* Assets.xcassets */; };
+		CC7DC6E71FD53F5F000D77FB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC7DC6E51FD53F5F000D77FB /* LaunchScreen.storyboard */; };
+		CC7DC6F21FD53F5F000D77FB /* QNTZ_swift4_0Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC7DC6F11FD53F5F000D77FB /* QNTZ_swift4_0Tests.swift */; };
+		CC7DC6FD1FD53F60000D77FB /* QNTZ_swift4_0UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC7DC6FC1FD53F60000D77FB /* QNTZ_swift4_0UITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CC7DC6EE1FD53F5F000D77FB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CC7DC6D11FD53F5F000D77FB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CC7DC6D81FD53F5F000D77FB;
+			remoteInfo = "QNTZ-swift4.0";
+		};
+		CC7DC6F91FD53F60000D77FB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CC7DC6D11FD53F5F000D77FB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CC7DC6D81FD53F5F000D77FB;
+			remoteInfo = "QNTZ-swift4.0";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CC7DC6D91FD53F5F000D77FB /* QNTZ-swift4.0.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "QNTZ-swift4.0.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC7DC6DC1FD53F5F000D77FB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CC7DC6DE1FD53F5F000D77FB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CC7DC6E11FD53F5F000D77FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CC7DC6E31FD53F5F000D77FB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CC7DC6E61FD53F5F000D77FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CC7DC6E81FD53F5F000D77FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC7DC6ED1FD53F5F000D77FB /* QNTZ-swift4.0Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "QNTZ-swift4.0Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC7DC6F11FD53F5F000D77FB /* QNTZ_swift4_0Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QNTZ_swift4_0Tests.swift; sourceTree = "<group>"; };
+		CC7DC6F31FD53F5F000D77FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC7DC6F81FD53F60000D77FB /* QNTZ-swift4.0UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "QNTZ-swift4.0UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC7DC6FC1FD53F60000D77FB /* QNTZ_swift4_0UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QNTZ_swift4_0UITests.swift; sourceTree = "<group>"; };
+		CC7DC6FE1FD53F60000D77FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CC7DC6D61FD53F5F000D77FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC7DC6EA1FD53F5F000D77FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC7DC6F51FD53F60000D77FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CC7DC6D01FD53F5F000D77FB = {
+			isa = PBXGroup;
+			children = (
+				CC7DC6DB1FD53F5F000D77FB /* QNTZ-swift4.0 */,
+				CC7DC6F01FD53F5F000D77FB /* QNTZ-swift4.0Tests */,
+				CC7DC6FB1FD53F60000D77FB /* QNTZ-swift4.0UITests */,
+				CC7DC6DA1FD53F5F000D77FB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CC7DC6DA1FD53F5F000D77FB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CC7DC6D91FD53F5F000D77FB /* QNTZ-swift4.0.app */,
+				CC7DC6ED1FD53F5F000D77FB /* QNTZ-swift4.0Tests.xctest */,
+				CC7DC6F81FD53F60000D77FB /* QNTZ-swift4.0UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CC7DC6DB1FD53F5F000D77FB /* QNTZ-swift4.0 */ = {
+			isa = PBXGroup;
+			children = (
+				CC7DC6DC1FD53F5F000D77FB /* AppDelegate.swift */,
+				CC7DC6DE1FD53F5F000D77FB /* ViewController.swift */,
+				CC7DC6E01FD53F5F000D77FB /* Main.storyboard */,
+				CC7DC6E31FD53F5F000D77FB /* Assets.xcassets */,
+				CC7DC6E51FD53F5F000D77FB /* LaunchScreen.storyboard */,
+				CC7DC6E81FD53F5F000D77FB /* Info.plist */,
+			);
+			path = "QNTZ-swift4.0";
+			sourceTree = "<group>";
+		};
+		CC7DC6F01FD53F5F000D77FB /* QNTZ-swift4.0Tests */ = {
+			isa = PBXGroup;
+			children = (
+				CC7DC6F11FD53F5F000D77FB /* QNTZ_swift4_0Tests.swift */,
+				CC7DC6F31FD53F5F000D77FB /* Info.plist */,
+			);
+			path = "QNTZ-swift4.0Tests";
+			sourceTree = "<group>";
+		};
+		CC7DC6FB1FD53F60000D77FB /* QNTZ-swift4.0UITests */ = {
+			isa = PBXGroup;
+			children = (
+				CC7DC6FC1FD53F60000D77FB /* QNTZ_swift4_0UITests.swift */,
+				CC7DC6FE1FD53F60000D77FB /* Info.plist */,
+			);
+			path = "QNTZ-swift4.0UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CC7DC6D81FD53F5F000D77FB /* QNTZ-swift4.0 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC7DC7011FD53F60000D77FB /* Build configuration list for PBXNativeTarget "QNTZ-swift4.0" */;
+			buildPhases = (
+				CC7DC6D51FD53F5F000D77FB /* Sources */,
+				CC7DC6D61FD53F5F000D77FB /* Frameworks */,
+				CC7DC6D71FD53F5F000D77FB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "QNTZ-swift4.0";
+			productName = "QNTZ-swift4.0";
+			productReference = CC7DC6D91FD53F5F000D77FB /* QNTZ-swift4.0.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CC7DC6EC1FD53F5F000D77FB /* QNTZ-swift4.0Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC7DC7041FD53F60000D77FB /* Build configuration list for PBXNativeTarget "QNTZ-swift4.0Tests" */;
+			buildPhases = (
+				CC7DC6E91FD53F5F000D77FB /* Sources */,
+				CC7DC6EA1FD53F5F000D77FB /* Frameworks */,
+				CC7DC6EB1FD53F5F000D77FB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CC7DC6EF1FD53F5F000D77FB /* PBXTargetDependency */,
+			);
+			name = "QNTZ-swift4.0Tests";
+			productName = "QNTZ-swift4.0Tests";
+			productReference = CC7DC6ED1FD53F5F000D77FB /* QNTZ-swift4.0Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CC7DC6F71FD53F60000D77FB /* QNTZ-swift4.0UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC7DC7071FD53F60000D77FB /* Build configuration list for PBXNativeTarget "QNTZ-swift4.0UITests" */;
+			buildPhases = (
+				CC7DC6F41FD53F60000D77FB /* Sources */,
+				CC7DC6F51FD53F60000D77FB /* Frameworks */,
+				CC7DC6F61FD53F60000D77FB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CC7DC6FA1FD53F60000D77FB /* PBXTargetDependency */,
+			);
+			name = "QNTZ-swift4.0UITests";
+			productName = "QNTZ-swift4.0UITests";
+			productReference = CC7DC6F81FD53F60000D77FB /* QNTZ-swift4.0UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CC7DC6D11FD53F5F000D77FB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0910;
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = zhongdong;
+				TargetAttributes = {
+					CC7DC6D81FD53F5F000D77FB = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					CC7DC6EC1FD53F5F000D77FB = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CC7DC6D81FD53F5F000D77FB;
+					};
+					CC7DC6F71FD53F60000D77FB = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CC7DC6D81FD53F5F000D77FB;
+					};
+				};
+			};
+			buildConfigurationList = CC7DC6D41FD53F5F000D77FB /* Build configuration list for PBXProject "QNTZ-swift4.0" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CC7DC6D01FD53F5F000D77FB;
+			productRefGroup = CC7DC6DA1FD53F5F000D77FB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CC7DC6D81FD53F5F000D77FB /* QNTZ-swift4.0 */,
+				CC7DC6EC1FD53F5F000D77FB /* QNTZ-swift4.0Tests */,
+				CC7DC6F71FD53F60000D77FB /* QNTZ-swift4.0UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CC7DC6D71FD53F5F000D77FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC7DC6E71FD53F5F000D77FB /* LaunchScreen.storyboard in Resources */,
+				CC7DC6E41FD53F5F000D77FB /* Assets.xcassets in Resources */,
+				CC7DC6E21FD53F5F000D77FB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC7DC6EB1FD53F5F000D77FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC7DC6F61FD53F60000D77FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CC7DC6D51FD53F5F000D77FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC7DC6DF1FD53F5F000D77FB /* ViewController.swift in Sources */,
+				CC7DC6DD1FD53F5F000D77FB /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC7DC6E91FD53F5F000D77FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC7DC6F21FD53F5F000D77FB /* QNTZ_swift4_0Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC7DC6F41FD53F60000D77FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC7DC6FD1FD53F60000D77FB /* QNTZ_swift4_0UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CC7DC6EF1FD53F5F000D77FB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CC7DC6D81FD53F5F000D77FB /* QNTZ-swift4.0 */;
+			targetProxy = CC7DC6EE1FD53F5F000D77FB /* PBXContainerItemProxy */;
+		};
+		CC7DC6FA1FD53F60000D77FB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CC7DC6D81FD53F5F000D77FB /* QNTZ-swift4.0 */;
+			targetProxy = CC7DC6F91FD53F60000D77FB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CC7DC6E01FD53F5F000D77FB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CC7DC6E11FD53F5F000D77FB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CC7DC6E51FD53F5F000D77FB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CC7DC6E61FD53F5F000D77FB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CC7DC6FF1FD53F60000D77FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CC7DC7001FD53F60000D77FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CC7DC7021FD53F60000D77FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DZWASP37S7;
+				INFOPLIST_FILE = "QNTZ-swift4.0/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zhongdong.demo.QNTZ-swift4-0";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CC7DC7031FD53F60000D77FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DZWASP37S7;
+				INFOPLIST_FILE = "QNTZ-swift4.0/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zhongdong.demo.QNTZ-swift4-0";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CC7DC7051FD53F60000D77FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DZWASP37S7;
+				INFOPLIST_FILE = "QNTZ-swift4.0Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zhongdong.demo.QNTZ-swift4-0Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QNTZ-swift4.0.app/QNTZ-swift4.0";
+			};
+			name = Debug;
+		};
+		CC7DC7061FD53F60000D77FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DZWASP37S7;
+				INFOPLIST_FILE = "QNTZ-swift4.0Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zhongdong.demo.QNTZ-swift4-0Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QNTZ-swift4.0.app/QNTZ-swift4.0";
+			};
+			name = Release;
+		};
+		CC7DC7081FD53F60000D77FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DZWASP37S7;
+				INFOPLIST_FILE = "QNTZ-swift4.0UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zhongdong.demo.QNTZ-swift4-0UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "QNTZ-swift4.0";
+			};
+			name = Debug;
+		};
+		CC7DC7091FD53F60000D77FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DZWASP37S7;
+				INFOPLIST_FILE = "QNTZ-swift4.0UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zhongdong.demo.QNTZ-swift4-0UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "QNTZ-swift4.0";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CC7DC6D41FD53F5F000D77FB /* Build configuration list for PBXProject "QNTZ-swift4.0" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC7DC6FF1FD53F60000D77FB /* Debug */,
+				CC7DC7001FD53F60000D77FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC7DC7011FD53F60000D77FB /* Build configuration list for PBXNativeTarget "QNTZ-swift4.0" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC7DC7021FD53F60000D77FB /* Debug */,
+				CC7DC7031FD53F60000D77FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC7DC7041FD53F60000D77FB /* Build configuration list for PBXNativeTarget "QNTZ-swift4.0Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC7DC7051FD53F60000D77FB /* Debug */,
+				CC7DC7061FD53F60000D77FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC7DC7071FD53F60000D77FB /* Build configuration list for PBXNativeTarget "QNTZ-swift4.0UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC7DC7081FD53F60000D77FB /* Debug */,
+				CC7DC7091FD53F60000D77FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CC7DC6D11FD53F5F000D77FB /* Project object */;
+}
