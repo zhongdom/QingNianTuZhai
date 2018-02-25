@@ -1,5 +1,3 @@
-import UIKit
-
 ///
 /// Show Screen FPS.
 ///
@@ -7,6 +5,9 @@ import UIKit
 /// The maximum fps on iPhone is 59.97.
 /// The maxmium fps on iPad is 60.0.
 ///
+
+import UIKit
+
 public class FPSLabel: UILabel {
     
     public override init(frame: CGRect) {

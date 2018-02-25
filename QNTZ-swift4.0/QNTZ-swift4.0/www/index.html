@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
+    <title>%@</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/app.css" rel="stylesheet">
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.lazyloadxt.min.js"></script>
+    <script type="text/javascript">
+        $.extend($.lazyLoadXT, {
+            edgeY: 500
+        });
+    </script>
+</head>
+<body>
+<h3>%@</h3>
+<small style="color: gray;">%@ %@</small>
+<div class="post-content" id="content" style="margin-top: 10px;">
+    %@
+</div>
+<!--<hr/>-->
+<!--<p class="page-header" id="share-lable" style="display: none;">今天的内容让您开心了吗？快乐不要独享哦，分享一下给朋友们吧！点击下面图标，分享到对应的平台。</p>-->
+<!--<div class="container">-->
+<!--    <div class="col-xs-3 share-icon" id="timeline" style="display: none;">-->
+<!--        <img src="images/sns_weixin_timeline_icon.png" height="50">-->
+<!--        <p>微信朋友圈</p>-->
+<!--    </div>-->
+<!--    <div class="col-xs-3 share-icon" id="weixin" style="display: none;">-->
+<!--        <img src="images/sns_weixin_icon.png" height="50">-->
+<!--        <p>微信好友</p>-->
+<!--    </div>-->
+<!--    <div class="col-xs-3 share-icon" id="qq" style="display: none;">-->
+<!--        <img src="images/sns_qqfriends_icon.png" height="50">-->
+<!--        <p>QQ好友</p>-->
+<!--    </div>-->
+<!--    <div class="col-xs-3 share-icon" id="qzone" style="display: none;">-->
+<!--        <img src="images/sns_qzone_icon.png" height="50">-->
+<!--        <p>QQ空间</p>-->
+<!--    </div>-->
+<!--</div>-->
+
+<div class="page-header">热门评论</div>
+<div class="comment-list" id="comment-list">
+    %@
+</div>
+
+<script type="text/javascript">
+    $(document).ready(function () {
+
+        console.log('ready')
+        // 图片增加点击事件
+        $("img").click(function (e) {
+            
+            let url = e.target.src
+            if (!url || url.length <= 0) {
+                return 
+            }
+            window.webkit.messageHandlers.JSToNatvie.postMessage(url)
+        });
+
+        // $("img.img-responsive").click(function () {
+        //     window.webkit.messageHandlers.showImage.postMessage($(this).attr("data-src"));
+        // });
+        // $("#comment-list").click(function(){
+        //     window.webkit.messageHandlers.showComment.postMessage("");
+        // });
+        // //share
+        // $("#timeline").click(function(){
+        //     window.webkit.messageHandlers.share.postMessage("timeline");
+        // });
+        // $("#weixin").click(function(){
+        //     window.webkit.messageHandlers.share.postMessage("weixin");
+        // });
+        // $("#qq").click(function(){
+        //     window.webkit.messageHandlers.share.postMessage("qq");
+        // });
+        // $("#qzone").click(function(){
+        //     window.webkit.messageHandlers.share.postMessage("qzone");
+        // });
+    });
+    function onImageLoad(src, file){
+        $("img.img-responsive").each(function(i, ele){
+            var img = $(this);
+            if(img.attr('data-src') == src){
+                img.attr('src', file);
+            }
+        });
+        return "onImageLoad = " + file;
+    }
+    function showWeixin(){
+        $("#share-lable").show();
+        $("#timeline").show();
+        $("#weixin").show();
+        return "showWeixin";
+    }
+    function showWeibo(){
+        $("#share-lable").show();
+    }
+    function showQQ(){
+        $("#share-lable").show();
+        $("#qq").show();
+        $("#qzone").show();
+    }
+</script>
+</body>
+</html>

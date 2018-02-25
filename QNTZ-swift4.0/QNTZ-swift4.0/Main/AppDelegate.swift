@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Kingfisher
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -23,12 +24,21 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         self.window = UIWindow(frame: UIScreen.main.bounds)
         self.window?.backgroundColor = UIColor.white
         
-        self.window?.rootViewController = ViewController()
+        self.window?.rootViewController = CustomTableViewController()
         self.window?.makeKeyAndVisible()
         
         AppSetup.prepare()
         
+        self.registHomeScreenQuickActions()
+        
         return true
+    }
+    
+    // 收到内存警告，清理内存
+    func applicationDidReceiveMemoryWarning(_ application: UIApplication) {
+        
+        ImageCache.default.clearMemoryCache()
+        
     }
 
     func applicationWillResignActive(_ application: UIApplication) {
@@ -54,5 +64,40 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     }
 
 
+}
+
+// MARK: 3D Touch
+extension AppDelegate {
+    
+    //动态注册Home Screen Quick Actions
+    func registHomeScreenQuickActions(){
+        if #available(iOS 9.1, *) {
+            
+            // UIApplicationShortcutItem 代表一个item
+            // type： 唯一标示符的属性
+            // localizedTitle: 显示的标题
+            // localizedSubtitle: 显示的二级标题
+            // icon：显示的图片，可以自定义，也可以使用系统提供的样式
+            // userInfo: 包含一些信息
+            
+            // 自定义的icon
+            //icon:UIApplicationShortcutIcon(templateImageName: "like")
+            
+            let item1 = UIApplicationShortcutItem(type: "com.mycompany.myapp.newmessage", localizedTitle: "title", localizedSubtitle: "subtitle", icon: UIApplicationShortcutIcon(type: .home), userInfo: nil)
+            
+            UIApplication.shared.shortcutItems = [item1];
+            
+        } else {
+            // Fallback on earlier versions
+        }
+        
+    }
+    
+    func application(_ application: UIApplication, performActionFor shortcutItem: UIApplicationShortcutItem, completionHandler: @escaping (Bool) -> Void) {
+        print(shortcutItem)
+        if let userInfo = shortcutItem.userInfo {
+            print(userInfo)
+        }
+    }
 }
 

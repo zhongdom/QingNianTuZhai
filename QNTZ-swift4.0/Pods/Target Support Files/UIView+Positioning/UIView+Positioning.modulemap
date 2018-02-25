@@ -1,0 +1,6 @@
+framework module UIView_Positioning {
+  umbrella header "UIView+Positioning-umbrella.h"
+
+  export *
+  module * { export * }
+}

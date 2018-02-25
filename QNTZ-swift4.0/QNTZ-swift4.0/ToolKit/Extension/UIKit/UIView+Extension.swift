@@ -10,22 +10,6 @@ import UIKit
 
 extension UIView {
     
-    var layoutGuide: UILayoutGuide {
-        if #available(iOS 11, *) {
-            return safeAreaLayoutGuide
-        } else {
-            return layoutMarginsGuide
-        }
-    }
-    
-    var layoutInsets: UIEdgeInsets {
-        if #available(iOS 11, *) {
-            return safeAreaInsets
-        } else {
-            return layoutMargins
-        }
-    }
-    
     /// 给View加上圆角
     @IBInspectable var setCornerRadius: CGFloat {
         get {
